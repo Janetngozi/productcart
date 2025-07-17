@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gridcontainer">
+        <div class="firsttext">
+          <h1>Desserts</h1>
+        </div>
+
+        <div id="product-list"></div>
+      </div>
+
+      <div class="tenth">
+        <div class="tenthhh">
+          <h1>Your Cart (<span id="cart-count">0</span>)</h1>
+          <div id="cart-items"></div>
+
+          <div class="order-total">
+            <h3>Order Total</h3>
+            <h2 id="cart-total" class="laps">$0.00</h2>
+          </div>
+          <div>
+            <div class="height">
+              <img
+                src="./assets/images/icon-carbon-neutral.svg"
+                alt="Carbon Neutral Icon"
+                class="wide"
+              />
+              <h4 class="lag">
+                This is a <span class="bold">carbon-neutral</span> delivery
+              </h4>
+            </div>
+            <button class="confirm">Confirm Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="#" target="_blank" rel="noopener noreferrer">Janet</a>.
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
